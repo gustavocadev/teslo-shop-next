@@ -45,7 +45,7 @@ const ProductCard = ({ slug, title, images, price, inStock }: Props) => {
 
               <CardMedia
                 component="img"
-                image={`/${productImage}`}
+                image={`${productImage}`}
                 alt={title}
                 className="fadeIn"
                 onLoad={() => setIsImageLoaded(true)}
